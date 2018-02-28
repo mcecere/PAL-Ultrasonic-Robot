@@ -13,7 +13,7 @@ timer 3: ADC acquisition control, 50uS for 50mS generating 1000 data points.
 
 Timer 4: Main control loop @ 100ms. initiates US pulses, and powers overall state machine in PIC
 
-![alt text](https://raw.githubusercontent.com/mcecere/PAL-Ultrasonic-Robot/master/Pal Timer Allocation.jpg)
-![alt text](https://drive.google.com/open?id=1VSlsRoOCvYEbAL6seQAMatpjfeyl9k1N)
+![PalTimerAllocation](https://raw.githubusercontent.com/mcecere/PAL-Ultrasonic-Robot/master/Pal_Timer_Allocation.jpg)
+![PalBlockDiagram](https://drive.google.com/open?id=1VSlsRoOCvYEbAL6seQAMatpjfeyl9k1N)
 
 
