@@ -1,4 +1,5 @@
 # PAL-Ultrasonic-Robot
+
 // Personal Project to develop a motorized platform that will follow the user around using an ultrasonic beacon mounted on the user's remote control device, and turret based tracking on the mobile platform.
 Based on a PIC32MX device, and a custom designed Ultrasonic driver constructed from Serial RS-232 Port driver, specifically Maxim232 device.
 
@@ -14,6 +15,6 @@ timer 3: ADC acquisition control, 50uS for 50mS generating 1000 data points.
 Timer 4: Main control loop @ 100ms. initiates US pulses, and powers overall state machine in PIC
 
 ![PalTimerAllocation](https://raw.githubusercontent.com/mcecere/PAL-Ultrasonic-Robot/master/Pal_Timer_Allocation.jpg)
-![PalBlockDiagram](https://raw.githubusercontent.com/mcecere/PAL-Ultrasonic-Robot/master/Pal_System_Block_Diagram.pdf)
+![Pal Block Diagram ](https://raw.githubusercontent.com/mcecere/PAL-Ultrasonic-Robot/master/Pal_System_Block_Diagram.pdf)
 
 
