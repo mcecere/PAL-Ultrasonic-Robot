@@ -3,6 +3,7 @@
 Based on a PIC32MX device, and a custom designed Ultrasonic driver constructed from Serial RS-232 Port driver, specifically Maxim232 device.
 
 Uses 4 timers in the PIC to control in PAL_Timer.c:
+see also Pal Timer Allocation.jpg
 
 timer 1: generates 40KHz Ultrasonic drive signal, of programmable frequency and also programable burst sizes. It can send one 40KHz pulse, or 3, or continuous.
 
@@ -13,4 +14,5 @@ timer 3: ADC acquisition control, 50uS for 50mS generating 1000 data points.
 Timer 4: Main control loop @ 100ms. initiates US pulses, and powers overall state machine in PIC
 
 
+https://drive.google.com/open?id=1VSlsRoOCvYEbAL6seQAMatpjfeyl9k1N
 
